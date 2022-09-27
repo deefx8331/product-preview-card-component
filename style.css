@@ -135,7 +135,7 @@ button span {
   .wall {
     max-width: 100%;
     width: 100%;
-    height: 621px;
+    height: 100%;
     display: block;
     box-sizing: border-box;
     background-color: #3d8168;
@@ -145,7 +145,7 @@ button span {
   .container{
     display: flex;
     flex-direction: column;
-    height: 611px;
+    height: 95%;
     width: 100%;
   
   }
