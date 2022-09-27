@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,11 +17,16 @@
   <body>
     <div class="wall">
       <div class="container">
-        <div class="img-container"></div>
+        <div class="img-container">
+          <picture>
+            <source media="(min-width:650px)" srcset="./images/image-product-desktop.jpg" width="300px" height="450px">
+            <img src="./images/image-product-mobile.jpg" alt="perfume-image" width="100%" height="250px">
+          </picture>
+        </div>
         <div class="text-container">
-          <h5>PERFUME</h5>
+          <p class="perf">PERFUME</p>
 
-          <h2>Gabrielle Essence Eau De Parfum</h2>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
 
           <p>
             A floral, solar and voluptuous interpretation composed by Olivier
@@ -29,7 +35,7 @@
 
           <p>
             <span class="price1"> $149.99 <span class="material-symbols-outlined"> shopping_cart </span> </span
-            ><span class="price2">$169.99</span>
+            ><del class="price2">$169.99</del>
           </p>
 
           <button>
